@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Factura</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header bg-primary text-white">Factura</div>
+          <div class="card-body">
+<h2>Factura</h2>
+<div class="form-group">
+  <label for="montoFactura">Monto:</label>
+  <input type="number" class="form-control" id="montoFactura" [(ngModel)]="montoFactura">
+</div>
+<div class="form-group">
+  <label for="detallesFactura">Detalles:</label>
+  <textarea class="form-control" id="detallesFactura" [(ngModel)]="detallesFactura"></textarea>
+</div>
+<button type="button" class="btn btn-primary" (click)="procesarFactura()">Procesar factura</button>
+</div>
+</div>
+</div>
+</div>
+</div>

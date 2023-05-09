@@ -1,0 +1,18 @@
+.inscripcion-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .inscripcion-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inscripcion-form label {
+    font-weight: bold;
+  }
+  
+  .inscripcion-form input[type="text"], .inscripcion-form input[type="number"], .inscripcion-form select {
+    margin-bottom: 20px;
+  }

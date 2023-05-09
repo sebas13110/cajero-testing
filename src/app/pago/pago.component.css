@@ -1,0 +1,18 @@
+.pago-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .pago-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pago-form label {
+    font-weight: bold;
+  }
+  
+  .pago-form input[type="text"], .pago-form input[type="number"] {
+    margin-bottom: 20px;
+  }

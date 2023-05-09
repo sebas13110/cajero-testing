@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inscripcion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header bg-primary text-white">Inscripción</div>
+          <div class="card-body">
+
+<form (ngSubmit)="procesarInscripcion()">
+    <div>
+      <label>Nombre:</label>
+      <input type="text" [(ngModel)]="nombreEstudiante" name="nombreEstudiante" required>
+    </div>
+    <div>
+      <label>Apellido:</label>
+      <input type="text" [(ngModel)]="apellidoEstudiante" name="apellidoEstudiante" required>
+    </div>
+    <div>
+      <label>Fecha de nacimiento:</label>
+      <input type="date" [(ngModel)]="fechaNacimientoEstudiante" name="fechaNacimientoEstudiante" required>
+    </div>
+    <div>
+      <label>Monto de inscripción:</label>
+      <input type="number" [(ngModel)]="montoInscripcion" name="montoInscripcion" required readonly>
+    </div>
+    <button type="submit">Procesar inscripción</button>
+  </form>
+</div>
+</div>
+</div>
+</div>
+</div>

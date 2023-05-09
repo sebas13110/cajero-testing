@@ -1,6 +1,6 @@
-/* Estilos para el menú principal */
+/* Estilos para la pantalla de pago de pago */
 
-.menu-container {
+.pago-pago-container {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
@@ -10,22 +10,22 @@
     margin-top: 50px;
   }
   
-  .menu-container h1 {
+  .pago-pago-container h1 {
     font-size: 28px;
     margin-bottom: 20px;
   }
   
-  .menu-container .list-group-item {
-    border-radius: 0;
+  .pago-pago-container .form-control {
+    margin-bottom: 15px;
   }
   
-  .menu-container .list-group-item.active {
+  .pago-pago-container .btn-primary {
     background-color: #005ea5;
     border-color: #005ea5;
   }
   
-  .menu-container .list-group-item.active:hover {
-    background-color: #005ea5;
-    border-color: #005ea5;
+  .pago-pago-container .btn-primary:hover {
+    background-color: #003d6b;
+    border-color: #003d6b;
   }
   
